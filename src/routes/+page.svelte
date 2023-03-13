@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Card from '../components/Card.svelte';
-	import ContactForm from '../components/ContactForm.svelte';
+	import ContactSection from '../components/ContactSection.svelte';
 	import Hero from '../components/Hero.svelte';
 	import Projects from '../components/Projects.svelte';
 	import SectionTwo from '../components/SectionTwo.svelte';
@@ -23,20 +23,20 @@
 	<div class="bg-base-100">
 		<Hero />	
 	</div>
-	<div class="bg-base-100 my-24 px-6">
+	<div class="bg-base-100 my-64 px-6">
 		<Features></Features>
 	</div>
-	<div class="bg-base-100 my-24 px-6">
+	<div class="bg-base-100 my-64 px-6">
 		<Statistics></Statistics>
 	</div>
-	<div class="bg-base-100 my-24 px-6">
+	<div class="bg-base-100 my-64 px-6">
 		<Projects></Projects>
 	</div>
-	<div class="bg-base-100 my-24 px-6">
+	<div class="bg-base-100 my-64 px-6">
 		<Testimonials></Testimonials>
 	</div>
-	<div class="bg-base-100 my-24 px-6">
-		<ContactForm></ContactForm>
+	<div class="bg-base-100 my-64 px-6">
+		<ContactSection></ContactSection>
 	</div>
 	
 </div>
