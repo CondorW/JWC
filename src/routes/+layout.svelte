@@ -1,6 +1,7 @@
 <script>
     import "../app.css";
 	import Card from "../components/Card.svelte";
+	import Footer from "../components/Footer.svelte";
   </script>
   
 <html lang="english" data-theme="luxury"></html>
@@ -22,4 +23,5 @@
   <slot></slot>
   
 </body>
+<Footer></Footer>
 

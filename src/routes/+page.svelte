@@ -1,6 +1,12 @@
 <script lang="ts">
 	import Card from '../components/Card.svelte';
+	import ContactForm from '../components/ContactForm.svelte';
 	import Hero from '../components/Hero.svelte';
+	import Projects from '../components/Projects.svelte';
+	import SectionTwo from '../components/SectionTwo.svelte';
+	import Statistics from '../components/Statistics.svelte';
+	import Testimonials from '../components/Testimonials.svelte';
+	import Features from '../components/Features.svelte';
 	interface cardData {
 		title: string;
 		content: string;
@@ -11,23 +17,26 @@
 	}
 	export let data: data;
 	console.log(data.allCards);
-	
 </script>
 
 <div>
-	<!-- {#each data.allCards as singleData (singleData.id)}
-		<Card {...singleData}/>
-	{/each} -->
-	<div class="flex bg-gray-800 h-screen items-center justify-center">
-		<Hero></Hero>
-		<!-- <div class="flex flex-col bg-red-300 text-center">
-		  <p>A Full-Service AirBNB Experince</p>
-		  <div class="divider"></div>
-		  <p>We truly think of everything</p>
-		</div> -->
-	  </div>
-	  <div class="bg-gray-600 h-screen">
-	  </div>
+	<div class="bg-base-100">
+		<Hero />	
+	</div>
+	<div class="bg-base-100 my-24 px-6">
+		<Features></Features>
+	</div>
+	<div class="bg-base-100 my-24 px-6">
+		<Statistics></Statistics>
+	</div>
+	<div class="bg-base-100 my-24 px-6">
+		<Projects></Projects>
+	</div>
+	<div class="bg-base-100 my-24 px-6">
+		<Testimonials></Testimonials>
+	</div>
+	<div class="bg-base-100 my-24 px-6">
+		<ContactForm></ContactForm>
+	</div>
 	
-
 </div>
