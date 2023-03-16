@@ -1,3 +1,7 @@
 @tailwind base;
+html{
+    scroll-behavior: smooth;
+    font-size: 1.125rem;
+}
 @tailwind components;
 @tailwind utilities;
