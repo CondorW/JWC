@@ -1,4 +1,7 @@
-<script>
+<script lang="ts">
+
+	
+
 </script>
 
 <div>
@@ -13,13 +16,17 @@
 				<div class="max-w-md">
 					<h1 class="mb-5 text-5xl font-bold">Problems?</h1>
 					<p class="mb-5">Your full service AirBNB Solution. We really think of everything</p>
-					<button class="btn btn-primary">Contact us</button>
+					<button class="btn btn-primary hover:scale-110">Contact us</button>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="flex place-content-center w-screen">
-		<svg
+		<button on:click|preventDefault={() => scrollTo({
+			top:1100,
+			behavior: "smooth"
+		})}>
+		<svg 
 			class="h-10 w-10 animate-bounce fill-base-content"
 			xmlns="http://www.w3.org/2000/svg"
 			xml:space="preserve"
@@ -27,6 +34,6 @@
 			><path
 				d="M325.607 79.393c-5.857-5.857-15.355-5.858-21.213.001l-139.39 139.393L25.607 79.393c-5.857-5.857-15.355-5.858-21.213.001-5.858 5.858-5.858 15.355 0 21.213l150.004 150a14.999 14.999 0 0 0 21.212-.001l149.996-150c5.859-5.857 5.859-15.355.001-21.213z"
 			/></svg
-		>
+		></button>
 	</div>
 </div>

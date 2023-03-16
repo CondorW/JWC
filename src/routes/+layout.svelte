@@ -4,7 +4,7 @@
 	import Footer from "../components/Footer.svelte";
   </script>
   
-<html lang="english" data-theme="luxury"></html>
+<html lang="english" data-theme="halloween"></html>
 
 <body>
   
