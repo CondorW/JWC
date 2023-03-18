@@ -8,7 +8,7 @@
           <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg" class="rounded-full shadow-lg w-32" />
         </div>
         <h5 class="text-lg font-bold mb-4 text-neutral-content">Maria Smantha</h5>
-        <h6 class="font-medium text-blue-600 mb-4">Web Developer</h6>
+        <h6 class="font-medium text-secondary-content mb-4">Web Developer</h6>
         <p class="mb-4 text-base-content">
           <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="quote-left"
             class="w-6 pr-2 inline-block" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -67,7 +67,7 @@
           <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(2).jpg" class="rounded-full shadow-lg w-32" />
         </div>
         <h5 class="text-lg font-bold mb-4 text-neutral-content">Lisa Cudrow</h5>
-        <h6 class="font-medium text-blue-600 mb-4">Graphic Designer</h6>
+        <h6 class="font-medium text-secondary-content mb-4">Graphic Designer</h6>
         <p class="mb-4 text-base-content">
           <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="quote-left"
             class="w-6 pr-2 inline-block" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -125,7 +125,7 @@
           <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg" class="rounded-full shadow-lg w-32" />
         </div>
         <h5 class="text-lg font-bold mb-4 text-neutral-content">John Smith</h5>
-        <h6 class="font-medium text-blue-600 mb-4">Marketing Specialist</h6>
+        <h6 class="font-medium text-secondary-content mb-4">Marketing Specialist</h6>
         <p class="mb-4 text-base-content">
           <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="quote-left"
             class="w-6 pr-2 inline-block" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">

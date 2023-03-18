@@ -11,7 +11,7 @@
   <!-- Navbar -->
   <div class="navbar bg-base-300">
     <div class="flex-1">
-      <a class="btn btn-ghost normal-case text-xl">JWConsulting</a>
+      <a href="/" class="btn btn-ghost normal-case text-xl">Data Estate Austria</a>
     </div>
     <div class="flex-none">
       <button class="btn btn-square btn-ghost">

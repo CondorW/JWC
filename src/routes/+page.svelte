@@ -1,13 +1,12 @@
 <script lang="ts">
-	import Card from '../components/Card.svelte';
 	import ContactSection from '../components/ContactSection.svelte';
 	import Hero from '../components/Hero.svelte';
 	import Projects from '../components/Projects.svelte';
-	import SectionTwo from '../components/SectionTwo.svelte';
 	import Statistics from '../components/Statistics.svelte';
 	import Testimonials from '../components/Testimonials.svelte';
 	import Features from '../components/Features.svelte';
 	import StickyButton from '../components/StickyButton.svelte';
+	import Team from '../components/Team.svelte';
 	interface cardData {
 		title: string;
 		content: string;
@@ -35,6 +34,9 @@
 	</div>
 	<div class="bg-base-100 my-64 px-6">
 		<Testimonials></Testimonials>
+	</div>
+	<div class="bg-base-100 my-64 px-6">
+		<Team></Team>
 	</div>
 	<div class="bg-base-100 my-64 px-6">
 		<ContactSection></ContactSection>
