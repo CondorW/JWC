@@ -2,29 +2,14 @@
 <script lang="ts">
 	import '../app.css';
 	import Footer from '../components/Footer.svelte';
+	import Analytics from '$lib/analytics.svelte';
 
-
-	// try {
-	// 	if (typeof window !== 'undefined' && window) {
-	// 		const googleAnalyticsId = 'YOUR_MEASUREMENT_ID_HERE';
-	// 		window.dataLayer = window.dataLayer || [];
-	// 		function gtag(a: string, b: object | string) {
-	// 			window.dataLayer.push();
-	// 		}
-	// 		gtag('js', new Date());
-	// 		gtag('config', googleAnalyticsId);
-	// 	}
-	// } catch (error) {
-	// 	console.error('Failed to initialize Analytics');
-	// }
 </script>
 
 <html lang="english" data-theme="halloween" />
 <!-- Sets the theme -->
 
-<svelte:head>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-SVSEQZT4KV"></script>
-</svelte:head>
+<Analytics></Analytics>
 
 <body class="flex flex-col min-h-screen">
 	<!-- Navbar -->
