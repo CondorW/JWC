@@ -3,14 +3,15 @@
 	import '../app.css';
 	import Footer from '../components/Footer.svelte';
 	import Analytics from '$lib/analytics.svelte';
+	import GdprModal from '../components/Gdprmodal.svelte';
 
 </script>
 
 <html lang="english" data-theme="halloween" />
 <!-- Sets the theme -->
 
+<!-- Implement Google Analytics -->
 <Analytics></Analytics>
-
 <body class="flex flex-col min-h-screen">
 	<!-- Navbar -->
 	<div class="navbar bg-base-300">

@@ -7,6 +7,7 @@
 	import Features from '../components/Features.svelte';
 	import StickyButton from '../components/StickyButton.svelte';
 	import Team from '../components/Team.svelte';
+	import Gdprmodal from '../components/Gdprmodal.svelte';
 	interface cardData {
 		title: string;
 		content: string;
@@ -23,6 +24,7 @@
 	<div id="TOPMAN" class="bg-base-100">
 		<Hero />	
 	</div>
+	<Gdprmodal></Gdprmodal>
 	<div id="FeatureSec" class="bg-base-100 my-64 px-6">
 		<Features></Features>
 	</div>
