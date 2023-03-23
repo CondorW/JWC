@@ -33,7 +33,7 @@
             active:bg-accent-focus active:shadow-lg
             transition
             duration-150
-            ease-in-out">Send</button
+            ease-in-out">Send E-Mail</button
 					>
 				</a>
 		</div>
