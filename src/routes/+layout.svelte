@@ -3,7 +3,7 @@
 	import '../app.css';
 	import Footer from '../components/Footer.svelte';
 	import Analytics from '$lib/analytics.svelte';
-	import GdprModal from '../components/Gdprmodal.svelte';
+	import Gdprmodal from '../components/Gdprmodal.svelte';
 
 </script>
 
@@ -36,6 +36,7 @@
 		</div>
 	</div>
 	<!-- Hero Section Content -->
+	<Gdprmodal></Gdprmodal>
 	<slot />
 </body>
 <footer class="mt-auto">
