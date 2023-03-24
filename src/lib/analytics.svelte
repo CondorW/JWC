@@ -1,7 +1,7 @@
 <script lang="ts">
     import { page } from '$app/stores'
     import { PUBLIC_GAMID } from '$env/static/public';
-
+      
       if (typeof gtag !== 'undefined') {
         gtag('config', PUBLIC_GAMID, {
           page_title: document.title,
@@ -26,3 +26,4 @@
       gtag('config', 'MEASUREMENT_ID')
     </script>
   </svelte:head>
+  

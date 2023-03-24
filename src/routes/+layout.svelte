@@ -1,17 +1,21 @@
-
 <script lang="ts">
 	import '../app.css';
 	import Footer from '../components/Footer.svelte';
 	import Analytics from '$lib/analytics.svelte';
 	import Gdprmodal from '../components/Gdprmodal.svelte';
+	import { userAcceptedGdpr } from '$lib/userStore';
+
+	let accepted = $userAcceptedGdpr;
 
 </script>
 
 <html lang="english" data-theme="halloween" />
 <!-- Sets the theme -->
-
+  <!-- Implement Google Analytics if user has accepted GDPR -->
+  {#if accepted == true}
+  <Analytics></Analytics>	
+  {/if}
 <!-- Implement Google Analytics -->
-<Analytics></Analytics>
 <body class="flex flex-col min-h-screen">
 	<!-- Navbar -->
 	<div class="navbar bg-base-300">
@@ -36,9 +40,9 @@
 		</div>
 	</div>
 	<!-- Hero Section Content -->
-	<Gdprmodal></Gdprmodal>
+	<Gdprmodal />
 	<slot />
 </body>
 <footer class="mt-auto">
-<Footer />
+	<Footer />
 </footer>
