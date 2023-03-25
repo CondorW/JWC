@@ -1,3 +1,3 @@
-import { writable } from "svelte/store";
+import { persisted } from "svelte-local-storage-store";
 
-export const userAcceptedGdpr = writable(false);
+export const preferences = persisted('preferences',{acceptAllCookies: false});

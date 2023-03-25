@@ -1,10 +1,12 @@
 <script lang="ts"> 
-import { userAcceptedGdpr } from "$lib/userStore";
+import { get } from "svelte/store";
+import { preferences } from "$lib/userStore";
+
+
 function acceptGdpr(){
-  userAcceptedGdpr.set(true);
+  preferences.set({acceptAllCookies: true});
 }
 
-$: console.log($userAcceptedGdpr);
 
 
 
@@ -12,7 +14,7 @@ $: console.log($userAcceptedGdpr);
 
 
 
-{#if $userAcceptedGdpr == false}
+{#if $preferences.acceptAllCookies == false}
 <input type="checkbox" id="my-modal-6" class="modal-toggle" />
 <div class="modal modal-bottom sm:modal-middle modal-open">
   <div class="modal-box">

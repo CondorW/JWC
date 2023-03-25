@@ -21,7 +21,10 @@
       function gtag() {
         dataLayer.push(arguments)
       }
-  
+      gtag('consent', 'default',{
+        'ad_storage': 'denied',
+        'analytics_storage': 'denied'
+      });
       gtag('js', new Date())
       gtag('config', 'MEASUREMENT_ID')
     </script>
