@@ -1,17 +1,13 @@
 <script lang="ts">
 	import '../app.css';
 	import Footer from '../components/Footer.svelte';
-	import Analytics from '$lib/analytics.svelte';
 	import Gdprmodal from '../components/Gdprmodal.svelte';
-	import { preferences } from '$lib/userStore';
-
+	
 </script>
 
 <html lang="english" data-theme="halloween" />
 <!-- Sets the theme -->
-  <!-- Implement Google Analytics if user has accepted GDPR -->
-  <Analytics></Analytics>	
-<!-- Implement Google Analytics -->
+
 <body class="flex flex-col min-h-screen">
 	<!-- Navbar -->
 	<div class="navbar bg-base-300">
